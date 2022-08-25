@@ -8,7 +8,7 @@ background-color: wheat;
 .prev, .next {
 position: absolute;
 width: auto;
-top: 38%;
+top: 35%;
 padding: 8px;
 background-color: black;
 background-color: rgba(0, 0, 0, 0.55);
@@ -21,9 +21,7 @@ font-weight: bold;
 font-size: 18px;
 }
 
-.next {
-right: 1px;
-}
+.next {right: 4px;}
 
 .prev:hover, .next:hover {
 background-color: goldenrod;
@@ -52,6 +50,7 @@ margin-bottom: 70px;
 .mySlides {
 display: inline-block;
 margin: 0;
+margin-right: 4px;
 }
 
 #img {     
@@ -65,6 +64,7 @@ width: 20%;
 padding: 7px 0px;
 bottom: 20px;
 color: #36e9bf;
+text-align: center;
 
 font-size: 17px;
 font-family: "Nunito Sans", Arial, sans-serif;
