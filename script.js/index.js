@@ -14,7 +14,7 @@ let slideIndex = 0;
   showSlides(slideIndex);      
 function plusSlides(n) {
   showSlides(slideIndex += n);
-  alert('ok'); 
+  //alert('ok'); 
 }      
 function currentSlide(n) {
   showSlides(slideIndex = n);
