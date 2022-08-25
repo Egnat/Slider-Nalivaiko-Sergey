@@ -1,0 +1,88 @@
+body {
+margin:0;
+box-sizing: border-box;
+background-color: wheat;
+}
+
+/* Кнопки next & previous*/
+.prev, .next {
+position: absolute;
+width: auto;
+top: 50%;
+padding: 8px;
+background-color: black;
+background-color: rgba(0, 0, 0, 0.55);
+color: white;
+transition: 0.6s ease;
+user-select: none;
+cursor: pointer;
+
+font-weight: bold;
+font-size: 18px;
+}
+
+/* Измените положение "next button" */
+.next {
+right: 1px;
+}
+
+/*Можно добавить черный фоновый цвет с небольшой прозрачностью*/
+.prev:hover, .next:hover {
+background-color: goldenrod;
+}
+
+.inputs {text-align:center;}
+
+/* Точки/маркеры/указатели */
+.oval {
+width: 16px;
+height: 16px;
+margin: 0 15px;
+transition: 0.6s ease;
+transform: matrix(2, 0, 0, 1, 0, 0);
+cursor: pointer;
+}
+
+.slideshow-container {
+display: flex;
+position: relative;
+width: 638px;
+top: 70px;
+margin: auto;
+margin-bottom: 70px;
+}
+
+.mySlides {
+display: inline-block;
+margin: 0;
+}
+
+#img {     
+vertical-align: middle;
+width:100%;
+}
+
+/* Текст на фото */
+.text {
+position: absolute;
+width: 20%;
+padding: 7px 0px;
+bottom: 20px;
+color: #36e9bf;
+
+font-size: 17px;
+font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+/* Number text (1/5) */
+.numbertext {
+position: absolute;
+padding: 8px 12px;
+top: 0;
+
+font-size: 15px;
+color: #ffffff;
+}
+
+/*Подпись под фото*/
+.text-under-the_photo {color: blue;}

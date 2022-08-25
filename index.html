@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href= "https: //fonts.googleapis.com/css2?family= Nunito +Sans:ital,wght@1,300 & display=swap" rel="stylesheet">
+<script type="text/javascript">alert("Javacript подключен");</script>
+<script type="text/javascript" src="script.js/index.js"></script>
+<title>Slider</title>
+</head>
+
+<body>
+<section class="slideshow-container">
+
+<figure class="mySlides">
+<div class="numbertext">1 / 5</div>
+<img id="img"src="images/1.jpg" alt="Sunset in Los Angeles">
+<article class="text">Sunset in LA</article>
+<figcaption class="text-under-the_photo">это фото</figcaption>
+</figure>
+
+<figure class="mySlides">
+<div class="numbertext">2 / 5</div>
+<img id="img"src="images/2.jpg" alt="View of Rio">
+<article class="text">View of Rio</article>
+<figcaption class="text-under-the_photo">это тоже фото</figcaption>
+</figure>
+
+<figure class="mySlides">
+<div class="numbertext">3 / 5</div>
+<img id="img"src="images/3.jpg" alt="Bank of America">
+<article class="text">Bank in USA</article>
+<figcaption class="text-under-the_photo">и это фото</figcaption>
+</figure>
+
+<figure class="mySlides">
+<div class="numbertext">4 / 5</div>
+<img id="img"src="images/4.jpg" alt="Beverly Hills">
+<article class="text">Beverly Hills</article>
+<figcaption class="text-under-the_photo">и это тоже фото</figcaption>
+</figure>
+
+<figure class="mySlides">
+<div class="numbertext">5 / 5</div>
+<img id="img"src="images/5.jpg" alt="Night LA">
+<article class="text">Night LA</article>
+<figcaption class="text-under-the_photo">снова фото</figcaption>
+</figure>
+
+      
+<button class="prev" onclick="plusSlides(-1)">&#10094;</button> 
+<button class="next" onclick="plusSlides(1)">&#10095;</button>
+      
+</section>
+
+<br>
+
+<form class="inputs"> 
+/ <label class="radio">photo-1</label>
+<input type="radio" name="switch" value="1ph" class="oval" onclick="currentSlide(1)"checked> /
+<label class="radio">photo-2</label>
+<input type="radio" name="switch" value="2value=" class="oval" onclick="currentSlide(2)"checked> /
+<label class="radio">photo-3</label> 
+<input type="radio" name="switch" value="3ph" class="oval" onclick="currentSlide(3)"checked> /
+<label class="radio">photo-4</label> 
+<input type="radio" name="switch" value="4ph" class="oval" onclick="currentSlide(4)"checked> /
+<label class="radio">photo-5</label> 
+<input type="radio" name="switch" value="4ph" class="oval" onclick="currentSlide(5)"checked> /
+
+</form>
+
+</body>
+</html>
