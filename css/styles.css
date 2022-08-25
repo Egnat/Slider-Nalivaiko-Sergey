@@ -21,19 +21,16 @@ font-weight: bold;
 font-size: 18px;
 }
 
-/* Измените положение "next button" */
 .next {
 right: 1px;
 }
 
-/*Можно добавить черный фоновый цвет с небольшой прозрачностью*/
 .prev:hover, .next:hover {
 background-color: goldenrod;
 }
 
 .inputs {text-align:center;}
 
-/* Точки/маркеры/указатели */
 .oval {
 width: 16px;
 height: 16px;
@@ -62,7 +59,6 @@ vertical-align: middle;
 width:100%;
 }
 
-/* Текст на фото */
 .text {
 position: absolute;
 width: 20%;
@@ -74,7 +70,6 @@ font-size: 17px;
 font-family: "Nunito Sans", Arial, sans-serif;
 }
 
-/* Number text (1/5) */
 .numbertext {
 position: absolute;
 padding: 8px 12px;
@@ -84,5 +79,4 @@ font-size: 15px;
 color: #ffffff;
 }
 
-/*Подпись под фото*/
 .text-under-the_photo {color: blue;}
